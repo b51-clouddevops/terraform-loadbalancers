@@ -1,6 +1,7 @@
 # This should only be called for the frontend component
 module "alb-public" {
-  source                   = "./vendor/modules/alb"  
+  source                   = "./vendor/modules/alb" 
+  ALB_NAME                 = "roboshop-" 
 }
 
 # This should only be called for the backend component
