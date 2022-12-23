@@ -1,3 +1,3 @@
 output "PUBLIC_ALB_ARN" {
-    value  = module.albaws_lb.alb.arn 
+    value  = module.alb-public.ALB_ARN
 }
